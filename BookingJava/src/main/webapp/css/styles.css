@@ -1,0 +1,87 @@
+* {
+    font-family: 'BIZ UDPGothic', sans-serif !important
+  }
+
+
+h1 {
+    font-family: 'Libre Baskerville', serif !important;
+    font-weight: 400 !important;
+    color: black !important;
+    font-size:55px;
+}
+
+.colorAzul {
+    font-weight: bold;
+    color:rgb(43, 178, 208) !important;
+}
+.colorAzulOscuro {
+    font-family: 'Libre Baskerville', serif !important;
+    color:rgb(32, 91, 155) !important;
+}
+
+.nombreVia {
+    font-family: 'Libre Baskerville', serif !important;
+    font-size: 26px !important;
+    font-weight: bold !important;
+}
+
+.precioVia {
+    color:rgb(230, 94, 70);
+    font-size: 24px !important;
+    font-weight: bold;
+}
+
+.btnInfo {
+    background-color: rgb(43, 178, 208) !important;
+    color:white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-decoration: none;
+}
+
+.btnInfo:hover {
+    background-color: rgb(230, 94, 70) !important;
+    color:white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-decoration: none;
+}
+
+.filtroHome {
+    border: 0px !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid black !important;
+    border-radius: 0px !important;
+    width: 100%;
+    padding: 5px;
+}
+
+.filtroHome:focus input {
+    box-shadow: none !important;
+    border: 0px !important;
+}
+
+
+.imgPortada {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/portada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center !important;
+    overflow: hidden;
+    background-size: cover;
+    z-index: -1;
+    /*transform: translateX(-100%);*/
+    transition-duration: .4s;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
